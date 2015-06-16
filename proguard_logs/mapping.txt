@@ -1,0 +1,531 @@
+slikar.Main.AndroidPaint -> slikar.Main.AndroidPaint:
+    boolean test_read -> a
+    android.app.Activity instance -> b
+    android.app.WallpaperManager myWallpaperManager -> c
+    int RESULT_LOAD_IMAGE -> f
+    slikar.Shapes.Shape mCurrentShape -> d
+    slikar.Main.Panel mPanel -> e
+    android.widget.Toast toast -> g
+    long lastBackPressTime -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void colorpicker() -> a
+    void colorpickerback() -> b
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onStart() -> onStart
+    void onResume() -> onResume
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    void onBackPressed() -> onBackPressed
+    void onStop() -> onStop
+    void onPause() -> onPause
+    void onDestroy() -> onDestroy
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void exit() -> c
+    void showSaveDialog() -> g
+    void setShare() -> d
+    void SaveAllObjects() -> e
+    void doCrop() -> f
+    void access$000(slikar.Main.AndroidPaint) -> a
+slikar.Main.AndroidPaint$1 -> slikar.Main.a:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.view.View) -> onClick
+slikar.Main.AndroidPaint$10 -> slikar.Main.b:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.AndroidPaint$11 -> slikar.Main.c:
+    android.app.AlertDialog val$dialog2 -> a
+    slikar.Main.AndroidPaint this$0 -> b
+    void onClick(android.view.View) -> onClick
+slikar.Main.AndroidPaint$12 -> slikar.Main.d:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.AndroidPaint$13 -> slikar.Main.e:
+    android.app.AlertDialog val$dialog3 -> a
+    slikar.Main.AndroidPaint this$0 -> b
+    void onClick(android.view.View) -> onClick
+slikar.Main.AndroidPaint$14 -> slikar.Main.f:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onOk(slikar.Main.ambilwarna.AmbilWarnaDialog,int) -> a
+    void onCancel(slikar.Main.ambilwarna.AmbilWarnaDialog) -> onCancel
+slikar.Main.AndroidPaint$15 -> slikar.Main.g:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onOk(slikar.Main.ambilwarna.AmbilWarnaDialog,int) -> a
+    void onCancel(slikar.Main.ambilwarna.AmbilWarnaDialog) -> onCancel
+slikar.Main.AndroidPaint$16 -> slikar.Main.h:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.AndroidPaint$17 -> slikar.Main.i:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.AndroidPaint$18 -> slikar.Main.j:
+    java.util.ArrayList val$cropOptions -> a
+    slikar.Main.AndroidPaint this$0 -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.AndroidPaint$19 -> slikar.Main.k:
+    android.net.Uri val$uri -> a
+    slikar.Main.AndroidPaint this$0 -> b
+    void onCancel(android.content.DialogInterface) -> onCancel
+slikar.Main.AndroidPaint$2 -> slikar.Main.l:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.view.View) -> onClick
+slikar.Main.AndroidPaint$3 -> slikar.Main.m:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.view.View) -> onClick
+slikar.Main.AndroidPaint$4 -> slikar.Main.n:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.view.View) -> onClick
+slikar.Main.AndroidPaint$5 -> slikar.Main.o:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.AndroidPaint$6 -> slikar.Main.p:
+    android.app.AlertDialog val$dialog1 -> a
+    slikar.Main.AndroidPaint this$0 -> b
+    void onClick(android.view.View) -> onClick
+slikar.Main.AndroidPaint$7 -> slikar.Main.q:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.AndroidPaint$8 -> slikar.Main.r:
+    android.app.AlertDialog val$dialog -> a
+    slikar.Main.AndroidPaint this$0 -> b
+    void onClick(android.view.View) -> onClick
+slikar.Main.AndroidPaint$9 -> slikar.Main.s:
+    slikar.Main.AndroidPaint this$0 -> a
+    void onClick(android.view.View) -> onClick
+slikar.Main.AuditContainer -> slikar.Main.t:
+    android.graphics.Paint mPaint -> d
+    android.graphics.Path mPath -> e
+    int x -> f
+    int y -> g
+    java.lang.String text -> h
+    boolean is_text -> a
+    java.lang.String effect -> b
+    boolean is_effect -> c
+    void savetextinstring() -> f
+    void savepathinstring() -> g
+    java.lang.String getText() -> a
+    int getX() -> b
+    int getY() -> c
+    android.graphics.Paint getPaint() -> d
+    android.graphics.Path getPath() -> e
+slikar.Main.BlurSeekBar -> slikar.Main.u:
+    android.graphics.Bitmap mybitmap -> c
+    int setter -> d
+    android.widget.SeekBar seekBar -> e
+    slikar.Main.Panel mPanel -> f
+    android.widget.ImageView imageview -> g
+    android.graphics.Canvas canvas -> a
+    android.graphics.Paint mPaint -> h
+    android.graphics.BlurMaskFilter$Blur style -> b
+    android.widget.TextView textviewblur -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void deleteAllObjects() -> a
+    void onClick(android.view.View) -> onClick
+    void draw() -> b
+    android.widget.TextView access$000(slikar.Main.BlurSeekBar) -> a
+    android.graphics.Paint access$100(slikar.Main.BlurSeekBar) -> b
+    void access$200(slikar.Main.BlurSeekBar) -> c
+slikar.Main.BlurSeekBar$1 -> slikar.Main.v:
+    slikar.Main.BlurSeekBar this$0 -> a
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+slikar.Main.CropOption -> slikar.Main.w:
+    java.lang.CharSequence title -> a
+    android.graphics.drawable.Drawable icon -> b
+    android.content.Intent appIntent -> c
+slikar.Main.CropOptionAdapter -> slikar.Main.x:
+    java.util.ArrayList mOptions -> a
+    android.view.LayoutInflater mInflater -> b
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+slikar.Main.DrawHandler -> slikar.Main.y:
+    java.lang.String maskfilter -> a
+    int dotsToDrawAtATime1 -> l
+    slikar.Shapes.Shape mCurrentShape -> b
+    android.graphics.Paint mCurrentPaint -> c
+    slikar.Shapes.Point mDownPoint -> d
+    java.lang.String startpoint -> e
+    java.lang.String lastpoint -> f
+    java.lang.String setXfermode -> g
+    android.graphics.Matrix inv -> h
+    slikar.Shapes.Point point -> i
+    android.graphics.Path p -> j
+    slikar.Main.Panel mPanel -> k
+    slikar.Main.DrawHandler$OnDrawListener mOnDrawListener -> m
+    float Ax -> n
+    float Ay -> o
+    float Bx -> p
+    float By -> q
+    double distAB -> r
+    double anglAB -> s
+    android.graphics.Matrix imageMatrix -> t
+    boolean imageScaleSet -> u
+    float mX -> v
+    float mY -> w
+    void setOnDrawListener(slikar.Main.DrawHandler$OnDrawListener) -> a
+    void Style(int) -> a
+    void setEraseColor(int) -> b
+    void setCurrentShape(slikar.Main.FirstPage$SHAPES,slikar.Shapes.Point) -> a
+    void handleTouchEvent(android.view.MotionEvent) -> a
+    void offsetView(float,float) -> a
+    void scaleRotateView(float,float,float,float) -> a
+    boolean handleMoveTool(android.view.MotionEvent) -> b
+    void touch_start(float,float) -> b
+    void touch_move(float,float) -> c
+    void touch_up() -> e
+    void handleTextTool(android.view.MotionEvent) -> d
+    void handleBrushTool(android.view.MotionEvent) -> c
+    void back() -> a
+    void next() -> b
+    void delete() -> c
+    android.graphics.Matrix getmatrika() -> d
+slikar.Main.DrawHandler$1 -> slikar.Main.z:
+    int[] $SwitchMap$slikar$Main$FirstPage$SHAPES -> a
+slikar.Main.DrawHandler$OnDrawListener -> slikar.Main.aa:
+    void onDrawShape(slikar.Shapes.Shape,android.graphics.Paint) -> a
+    void onDrawShapeTemp(slikar.Shapes.Shape,android.graphics.Paint) -> b
+    void onDrawText(java.lang.String,int,int,android.graphics.Paint) -> a
+    void onDrawAll(java.util.ArrayList) -> a
+slikar.Main.EmbosSeekBar -> slikar.Main.ab:
+    int setter -> b
+    android.widget.SeekBar seekBarBlurRadious -> c
+    android.widget.SeekBar seekBarX -> d
+    android.widget.SeekBar seekBarY -> e
+    android.widget.SeekBar seekBarZ -> f
+    android.widget.SeekBar seekBarambient -> g
+    android.widget.SeekBar seekBarSpecular -> h
+    android.widget.TextView textViewBlurRadious -> i
+    android.widget.TextView textViewX -> j
+    android.widget.TextView textViewY -> k
+    android.widget.TextView textViewZ -> l
+    android.widget.TextView textViewAmbient -> m
+    android.widget.TextView textViewSpecular -> n
+    slikar.Main.Panel mPanel -> o
+    android.widget.ImageView imageview -> p
+    android.graphics.Canvas canvas -> a
+    android.graphics.Paint mPaint -> q
+    android.graphics.Bitmap mybitmap -> r
+    void onCreate(android.os.Bundle) -> onCreate
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+    void deleteAllObject() -> a
+    void onClick(android.view.View) -> onClick
+    void draw() -> b
+slikar.Main.FirstPage -> slikar.Main.FirstPage:
+    android.widget.Button button -> a
+    android.widget.Button load -> b
+    android.widget.Button oldcanvas -> c
+    slikar.Main.FirstPage$Activitis activitis -> d
+    int widthDisplay -> e
+    int heightDisplay -> f
+    android.widget.EditText w -> E
+    android.widget.EditText h -> F
+    android.widget.TextView textView -> G
+    int RESULT_LOAD_IMAGE -> H
+    java.lang.String picturePath -> g
+    int colorBeckground -> h
+    java.lang.String main_string_to_save_string -> i
+    java.util.ArrayList main_string_to_save -> j
+    java.util.ArrayList rem -> k
+    java.util.ArrayList GRAPHICOBJECTS -> l
+    java.util.ArrayList undonePaths -> m
+    int SizeText -> n
+    java.lang.String text -> o
+    int width -> p
+    int blurRadious -> q
+    float ambient -> r
+    float x -> s
+    float y -> t
+    float z -> u
+    int specular -> v
+    boolean isSetScalledPath -> w
+    int scalledWidth -> x
+    int scalledHeight -> y
+    int size -> z
+    android.graphics.Paint mPaint -> A
+    android.graphics.Paint mErasePaint -> B
+    slikar.Main.FirstPage$SHAPES SELECTED_SHAPE -> C
+    android.graphics.Bitmap image -> D
+    android.net.Uri mImageCaptureUri -> I
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean canFit(int) -> a
+    void addListenerOnButton() -> a
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
+    void setmainpaint() -> b
+    void setStartSettings() -> c
+    void deleteAllSettings() -> d
+    void SaveAllObjects() -> e
+    void onPause() -> onPause
+    boolean isNumeric(java.lang.String) -> a
+    void finalize() -> finalize
+    android.widget.EditText access$000(slikar.Main.FirstPage) -> a
+    android.widget.EditText access$100(slikar.Main.FirstPage) -> b
+    android.widget.TextView access$200(slikar.Main.FirstPage) -> c
+    android.net.Uri access$302(slikar.Main.FirstPage,android.net.Uri) -> a
+    android.net.Uri access$300(slikar.Main.FirstPage) -> d
+slikar.Main.FirstPage$1 -> slikar.Main.ac:
+    android.content.Context val$context -> a
+    slikar.Main.FirstPage this$0 -> b
+    void onClick(android.view.View) -> onClick
+slikar.Main.FirstPage$2 -> slikar.Main.ad:
+    android.content.Context val$context -> a
+    slikar.Main.FirstPage this$0 -> b
+    void onClick(android.view.View) -> onClick
+slikar.Main.FirstPage$3 -> slikar.Main.ae:
+    slikar.Main.FirstPage this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.FirstPage$4 -> slikar.Main.af:
+    android.app.AlertDialog val$dialog -> a
+    slikar.Main.FirstPage this$0 -> b
+    void onClick(android.view.View) -> onClick
+slikar.Main.FirstPage$Activitis -> slikar.Main.ag:
+    slikar.Main.FirstPage$Activitis LOAD -> a
+    slikar.Main.FirstPage$Activitis NEWCANVAS -> b
+    slikar.Main.FirstPage$Activitis LASTMASTERPIECE -> c
+    slikar.Main.FirstPage$Activitis CROPPICTURE -> d
+    slikar.Main.FirstPage$Activitis[] $VALUES -> e
+    slikar.Main.FirstPage$Activitis[] values() -> values
+    slikar.Main.FirstPage$Activitis valueOf(java.lang.String) -> valueOf
+slikar.Main.FirstPage$SHAPES -> slikar.Main.ah:
+    slikar.Main.FirstPage$SHAPES LINE -> a
+    slikar.Main.FirstPage$SHAPES FREEHAND -> b
+    slikar.Main.FirstPage$SHAPES RECTANGLE -> c
+    slikar.Main.FirstPage$SHAPES CIRCLE -> d
+    slikar.Main.FirstPage$SHAPES OVAL -> e
+    slikar.Main.FirstPage$SHAPES ERASE -> f
+    slikar.Main.FirstPage$SHAPES FILL -> g
+    slikar.Main.FirstPage$SHAPES SPRAY -> h
+    slikar.Main.FirstPage$SHAPES MOVE -> i
+    slikar.Main.FirstPage$SHAPES SEPIA -> j
+    slikar.Main.FirstPage$SHAPES TEXT -> k
+    slikar.Main.FirstPage$SHAPES[] $VALUES -> l
+    slikar.Main.FirstPage$SHAPES[] values() -> values
+    slikar.Main.FirstPage$SHAPES valueOf(java.lang.String) -> valueOf
+slikar.Main.Panel -> slikar.Main.Panel:
+    java.lang.String TAG -> d
+    android.view.SurfaceHolder holder -> a
+    slikar.Main.DrawHandler mDrawHandler -> e
+    java.lang.String mPicturePath -> f
+    float zoom -> g
+    android.graphics.Point scroll -> h
+    int width -> i
+    int height -> j
+    android.graphics.Bitmap loadedBmp -> k
+    android.graphics.Bitmap mBitmap -> l
+    android.graphics.Bitmap tmpBitmap -> m
+    android.graphics.Canvas mCanvas -> n
+    android.graphics.Canvas displayCanvas -> o
+    android.graphics.Canvas tmpCanvas -> p
+    android.graphics.Path p -> b
+    slikar.Shapes.Shape mCurrentShape -> c
+    float mX -> q
+    float mY -> r
+    void finalize() -> finalize
+    void resetPerspective() -> g
+    void setbackground(int,java.util.ArrayList) -> a
+    void init() -> h
+    void setLoadedBmp(android.graphics.Bitmap) -> setLoadedBmp
+    void cropload() -> i
+    void touch_start(float,float) -> a
+    void touch_move(float,float) -> b
+    void touch_up() -> j
+    void readAllObjects() -> k
+    void onMeasure(int,int) -> onMeasure
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void setBackgroundColor(int) -> setBackgroundColor
+    void updateEraseColor(int) -> d
+    void Style(int) -> a
+    void prepareBitmaps() -> a
+    slikar.Main.DrawHandler getPainterHandler() -> getPainterHandler
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void drawBitmap(android.graphics.Bitmap) -> a
+    void updateBitmap(android.graphics.Bitmap) -> c
+    void updateBitmap(android.graphics.Canvas,android.graphics.Bitmap,slikar.Shapes.Shape,android.graphics.Paint) -> a
+    void updatemBitmap(android.graphics.Canvas,android.graphics.Bitmap,java.lang.String,int,int,android.graphics.Paint) -> a
+    void onDrawShape(slikar.Shapes.Shape,android.graphics.Paint) -> a
+    void onDrawShapeTemp(slikar.Shapes.Shape,android.graphics.Paint) -> b
+    void onDrawText(java.lang.String,int,int,android.graphics.Paint) -> a
+    void wallpaper(android.app.WallpaperManager) -> a
+    void onDrawAll(java.util.ArrayList) -> a
+    void queueToLoad(java.lang.String) -> a
+    void load() -> b
+    void specialPrepareBitmap() -> l
+    android.graphics.Bitmap resizeImage(android.graphics.Bitmap) -> d
+    android.graphics.Bitmap createSepiaToningEffect(android.graphics.Bitmap,int,double,double,double) -> a
+    android.graphics.Bitmap doColorFilter(android.graphics.Bitmap,double,double,double) -> a
+    android.graphics.Bitmap applyHueFilter(android.graphics.Bitmap,int) -> a
+    android.graphics.Bitmap applySnowEffect(android.graphics.Bitmap) -> b
+    android.graphics.Bitmap applyShadingFilter(android.graphics.Bitmap,int) -> b
+    void effectRef(int) -> b
+    void effectCall(int) -> c
+    void delete() -> c
+    void skupina() -> d
+    void deleteBitmap() -> e
+    android.graphics.Bitmap getBitmap() -> getBitmap
+    void setBitmap(android.graphics.Bitmap) -> setBitmap
+    android.graphics.Bitmap getmBitmap() -> getmBitmap
+    java.lang.String access$000() -> f
+    void access$100(slikar.Main.Panel) -> a
+    void access$200(slikar.Main.Panel) -> b
+slikar.Main.Panel$1 -> slikar.Main.ai:
+    slikar.Main.Panel this$0 -> a
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+slikar.Main.Width -> slikar.Main.aj:
+    slikar.Main.FirstPage$SHAPES SELECTED_SHAPE -> a
+    android.graphics.Bitmap mybitmap -> b
+    android.widget.SeekBar seekBar -> c
+    android.widget.SeekBar seekBarText -> d
+    slikar.Main.Panel mPanel -> e
+    android.graphics.Canvas canvas -> f
+    android.graphics.Paint mPaint -> g
+    android.widget.ImageView imageview -> h
+    android.widget.RadioGroup radioGroup -> i
+    slikar.Text text -> j
+    android.widget.TextView textViewWidth -> k
+    android.widget.TextView textViewWidthText -> l
+    void onCreate(android.os.Bundle) -> onCreate
+    void onCheckedChanged(android.widget.RadioGroup,int) -> onCheckedChanged
+    void draw() -> b
+    void deleteAllObject() -> a
+    void onClick(android.view.View) -> onClick
+    android.graphics.Paint access$000(slikar.Main.Width) -> a
+    android.widget.TextView access$100(slikar.Main.Width) -> b
+    void access$200(slikar.Main.Width) -> c
+    android.widget.TextView access$300(slikar.Main.Width) -> d
+slikar.Main.Width$1 -> slikar.Main.ak:
+    slikar.Main.Width this$0 -> a
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+slikar.Main.Width$2 -> slikar.Main.al:
+    slikar.Main.Width this$0 -> a
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+slikar.Main.Width$3 -> slikar.Main.am:
+    int[] $SwitchMap$slikar$Main$FirstPage$SHAPES -> a
+slikar.Main.ambilwarna.AmbilWarnaDialog -> slikar.Main.ambilwarna.a:
+    android.app.AlertDialog dialog -> a
+    slikar.Main.ambilwarna.AmbilWarnaDialog$OnAmbilWarnaListener listener -> b
+    android.view.View viewHue -> c
+    slikar.Main.ambilwarna.AmbilWarnaKotak viewSatVal -> d
+    android.widget.ImageView viewCursor -> e
+    android.view.View viewOldColor -> f
+    android.view.View viewNewColor -> g
+    android.widget.ImageView viewTarget -> h
+    android.view.ViewGroup viewContainer -> i
+    float[] currentColorHsv -> j
+    void moveCursor() -> a
+    void moveTarget() -> b
+    int getColor() -> d
+    float getHue() -> e
+    float getSat() -> f
+    float getVal() -> g
+    void setHue(float) -> a
+    void setSat(float) -> b
+    void setVal(float) -> c
+    void show() -> c
+    void access$000(slikar.Main.ambilwarna.AmbilWarnaDialog,float) -> a
+    float access$100(slikar.Main.ambilwarna.AmbilWarnaDialog) -> a
+    int access$200(slikar.Main.ambilwarna.AmbilWarnaDialog) -> b
+    void access$300(slikar.Main.ambilwarna.AmbilWarnaDialog,float) -> b
+    void access$400(slikar.Main.ambilwarna.AmbilWarnaDialog,float) -> c
+slikar.Main.ambilwarna.AmbilWarnaDialog$1 -> slikar.Main.ambilwarna.b:
+    slikar.Main.ambilwarna.AmbilWarnaDialog this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+slikar.Main.ambilwarna.AmbilWarnaDialog$2 -> slikar.Main.ambilwarna.c:
+    slikar.Main.ambilwarna.AmbilWarnaDialog this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+slikar.Main.ambilwarna.AmbilWarnaDialog$3 -> slikar.Main.ambilwarna.d:
+    slikar.Main.ambilwarna.AmbilWarnaDialog this$0 -> a
+    void onCancel(android.content.DialogInterface) -> onCancel
+slikar.Main.ambilwarna.AmbilWarnaDialog$4 -> slikar.Main.ambilwarna.e:
+    slikar.Main.ambilwarna.AmbilWarnaDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.ambilwarna.AmbilWarnaDialog$5 -> slikar.Main.ambilwarna.f:
+    slikar.Main.ambilwarna.AmbilWarnaDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+slikar.Main.ambilwarna.AmbilWarnaDialog$6 -> slikar.Main.ambilwarna.g:
+    android.view.View val$view -> a
+    slikar.Main.ambilwarna.AmbilWarnaDialog this$0 -> b
+    void onGlobalLayout() -> onGlobalLayout
+slikar.Main.ambilwarna.AmbilWarnaDialog$OnAmbilWarnaListener -> slikar.Main.ambilwarna.h:
+    void onCancel(slikar.Main.ambilwarna.AmbilWarnaDialog) -> onCancel
+    void onOk(slikar.Main.ambilwarna.AmbilWarnaDialog,int) -> a
+slikar.Main.ambilwarna.AmbilWarnaKotak -> slikar.Main.ambilwarna.AmbilWarnaKotak:
+    android.graphics.Paint paint -> a
+    android.graphics.Shader luar -> b
+    float[] color -> c
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void setHue(float) -> setHue
+slikar.Shapes.Circle -> slikar.a.a:
+    float centerX -> d
+    float centerY -> e
+    float radius -> f
+    slikar.Shapes.Point oneEndofTheCircle -> g
+    void setOneEndOfTheCircle(slikar.Shapes.Point) -> a
+    slikar.Shapes.Point getOneEndOfTheCircle() -> a
+slikar.Shapes.Erase -> slikar.a.b:
+    java.util.ArrayList _erasegraphicspath -> d
+slikar.Shapes.FreeHand -> slikar.a.c:
+    slikar.Shapes.Point begin -> d
+    slikar.Shapes.Point sredina -> e
+    slikar.Shapes.Point end -> f
+    void setPath(android.graphics.Path) -> a
+    slikar.Shapes.Point getBegin() -> a
+    void setBegin(slikar.Shapes.Point) -> a
+slikar.Shapes.Line -> slikar.a.d:
+    slikar.Shapes.Point begin -> d
+    slikar.Shapes.Point end -> e
+    void setPath(android.graphics.Path) -> a
+    slikar.Shapes.Point getBegin() -> a
+    void setBegin(slikar.Shapes.Point) -> a
+slikar.Shapes.Oval -> slikar.a.e:
+    android.graphics.RectF r -> d
+    slikar.Shapes.Point oneEndOfTheOval -> e
+    android.graphics.RectF getRectangle() -> a
+    slikar.Shapes.Point getoneEndOfTheOval() -> b
+    void setoneEndOfTheOval(slikar.Shapes.Point) -> a
+slikar.Shapes.Point -> slikar.a.f:
+    float _x -> a
+    float _y -> b
+    float getX() -> a
+    float getY() -> b
+    java.lang.String toString() -> toString
+slikar.Shapes.Rectangle -> slikar.a.g:
+    slikar.Shapes.Point temppointOfOneEndRectangle -> d
+    float left -> e
+    float top -> f
+    float right -> g
+    float bottom -> h
+    void setPath(android.graphics.Path) -> a
+    slikar.Shapes.Point gettemppointOfOneEndRectangle() -> a
+    void settemppointOfOneEndRectangle(slikar.Shapes.Point) -> a
+slikar.Shapes.Rectangle$SaveFileDialog -> slikar.a.h:
+    android.graphics.Bitmap bitmapToSave -> b
+    boolean isShere -> c
+    android.widget.EditText editText -> d
+    int test -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    android.graphics.Bitmap access$000(slikar.Shapes.Rectangle$SaveFileDialog) -> a
+slikar.Shapes.Rectangle$SaveFileDialog$SaveBitmapThread -> slikar.a.i:
+    java.lang.String filename -> d
+    java.lang.String mBaseFolderPath -> a
+    java.lang.String mFilePath -> b
+    slikar.Shapes.Rectangle$SaveFileDialog this$0 -> c
+    void run() -> run
+slikar.Shapes.Shape -> slikar.a.j:
+    android.graphics.Path path_of_shape -> a
+    float strokeWidth -> b
+    float setstyle -> c
+    android.graphics.Path getPath() -> c
+    void setPath(android.graphics.Path) -> a
+slikar.Text -> slikar.a:
+    android.widget.EditText editText -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick

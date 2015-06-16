@@ -1,0 +1,115 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.slikar.slika.BuildConfig
+com.slikar.slika.R
+com.slikar.slika.R$anim
+com.slikar.slika.R$array
+com.slikar.slika.R$attr
+com.slikar.slika.R$color
+com.slikar.slika.R$dimen
+com.slikar.slika.R$drawable
+com.slikar.slika.R$id
+com.slikar.slika.R$layout
+com.slikar.slika.R$menu
+com.slikar.slika.R$string
+com.slikar.slika.R$style
+com.slikar.slika.R$styleable
+slikar.Main.AndroidPaint:
+    private static final float TOUCH_TOLERANCE
+    public android.graphics.Path p
+    private int tmp
+    private float mX
+    private float mY
+    private static final int PICK_FROM_CAMERA
+    private static final int CROP_FROM_CAMERA
+    private static final int PICK_FROM_FILE
+slikar.Main.AuditContainer:
+    122:122:public boolean isIs_text()
+    126:126:public boolean getis_text()
+    130:131:public void setmPaint(android.graphics.Paint)
+    134:135:public void setmPath(android.graphics.Path)
+    138:139:public void setX(int)
+    142:143:public void setY(int)
+    146:147:public void setText(java.lang.String)
+    150:151:public void setIs_text(boolean)
+slikar.Main.BlurSeekBar:
+    35:37:public BlurSeekBar(android.content.Context)
+slikar.Main.ChooseColorBgCl
+slikar.Main.ChooseColorBgCl$1
+slikar.Main.ChooseColorBgCl$2
+slikar.Main.ChooseColorBgCl$3
+slikar.Main.DrawHandler:
+    private static final float TOUCH_TOLERANCE
+slikar.Main.Effects
+slikar.Main.Effects$1
+slikar.Main.EmbosSeekBar:
+    39:41:public EmbosSeekBar(android.content.Context)
+slikar.Main.FirstPage:
+    public static slikar.Main.Panel mPanel
+    private static final int IAB_LEADERBOARD_WIDTH
+    private static final int IAB_LEADERBOARD_HEIGHT
+    private static final int MED_BANNER_WIDTH
+    private static final int MED_BANNER_HEIGHT
+    private static final int BANNER_AD_WIDTH
+    private static final int BANNER_AD_HEIGHT
+    private static final int PICK_FROM_CAMERA
+    private static final int CROP_FROM_CAMERA
+    private static final int PICK_FROM_FILE
+slikar.Main.Panel:
+    private static final int COLOR_MAX
+    private static final float TOUCH_TOLERANCE
+    68:86:public static int calculateInSampleSize(android.graphics.BitmapFactory$Options,int,int)
+slikar.Main.ScalingUtilities
+slikar.Main.ScalingUtilities$ScalingLogic
+slikar.Main.ToolName
+slikar.Main.ambilwarna.AmbilWarnaDialog:
+    205:205:public android.app.AlertDialog getDialog()
+slikar.Shapes.Circle:
+    21:21:public float getCenterX()
+    25:25:public float getCenterY()
+    29:29:public float getRadius()
+    33:34:public void setCenterX(float)
+    37:38:public void setCenterY(float)
+    41:42:public void setReadius(float)
+slikar.Shapes.Erase:
+    18:18:public java.util.ArrayList getGraphicsPath()
+slikar.Shapes.FreeHand:
+    android.graphics.Matrix inverzniMatrix
+    20:27:public FreeHand(slikar.Shapes.Point,slikar.Shapes.Point,slikar.Shapes.Point)
+    38:38:public slikar.Shapes.Point getSredina()
+    43:43:public slikar.Shapes.Point getEnd()
+    52:53:public void setSredina(slikar.Shapes.Point)
+    56:57:public void setEnd(slikar.Shapes.Point)
+slikar.Shapes.Line:
+    android.graphics.Matrix inverzniMatrix
+    18:24:public Line(slikar.Shapes.Point,slikar.Shapes.Point)
+    35:35:public slikar.Shapes.Point getEnd()
+    44:45:public void setEnd(slikar.Shapes.Point)
+slikar.Shapes.Point:
+    public int x
+    public int y
+slikar.Shapes.Rectangle:
+    67:67:public float getLeft()
+    71:71:public float getTop()
+    75:75:public float getRight()
+    79:79:public float getBottom()
+    83:84:public void setLeft(float)
+    87:88:public void setTop(float)
+    91:92:public void setRight(float)
+    95:96:public void setBottom(float)
+slikar.Shapes.Rectangle$SaveFileDialog:
+    233:237:public boolean isExternalStorageWritable()
+    242:247:public boolean isExternalStorageReadable()
+slikar.Shapes.Rectangle$SaveFileDialog$SaveBitmapThread:
+    private static final int QUALITY
+    private static final java.lang.String ENDING
+slikar.Shapes.Rectangle$SaveFileDialog$ToastRunnable
+slikar.Shapes.Shape:
+    private int color_rgb
+    32:34:public void setrgb(int)
+    37:37:public int getrgb()
+    41:42:public void setStrokeWidth(float)
+    45:46:public void setStyle(float)
+    49:49:public float getStrokeWidth()
+    53:53:public float getsetStyle()
+slikar.Shapes.Spray
